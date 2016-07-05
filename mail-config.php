@@ -6,11 +6,11 @@
       $mail -> SMTPDebug = 1;
       $mail -> SMTPAuth = true;
       $mail -> SMTPSecure = 'ssl';
-      $mail -> Host = 'smtp.yandex.com.tr';
-      $mail -> Port = 465;
+      $mail -> Host = 'smtp server of your email';
+      $mail -> Port = smtp port;
       $mail -> IsHTML(true);
       $mail -> CharSet = 'utf-8';
-      $mail -> Username = "ariza.kayit@yandex.com";
-      $mail -> Password = "135anil246";
-      $mail -> SetFrom("ariza.kayit@yandex.com");
+      $mail -> Username = "email address";
+      $mail -> Password = "password";
+      $mail -> SetFrom("email address");
 ?>
